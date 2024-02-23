@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "knowledge-graphs"
+version = "0.1.0"
+description = ""
+authors = ["Rafael Van Belle <rafael@dataroots.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.0"
+neo4j = "^5.17.0"
+graphdatascience = "^1.9"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
